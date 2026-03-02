@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Y2038</title>
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -15,30 +15,65 @@
     <header>
         <nav>
             <ul>
-                <li>Y2038</li>
+                <li><a href="index.html">Y2038</a></li>
                 <li id="liveDecimal2"></li>
-                <li>Incidents</li>
+                <li><a href="incidents.html">Incidents</a></li>
             </ul>
         </nav>
     </header>
-    <section>
-        <div>
-            <!--<p id="demo"></p>-->
-            <p id="countdown"></p>
-            <p>Until disaster strikes on January 19, 2038 at 03:14:07 UTC</p>
+
+    <section class="start">
+        <div class="countdown">
+            <h1 id="countdown"></h1>
+            <h1>Until disaster strikes on January 19, 2038 at 03:14:07 UTC</h1>
         </div>
     </section>
 
-    <section>
-        <div>
-            <p id="liveDecimal"></p>
-            <p id="liveClock"></p>
-            <p id="liveLocalClock"></p>
-            <br>
-        </div>    
+    <section class="info-wrapper">
+        <div class="info">
+            <h2>What is the Year 2038 Problem?</h2>
+            <p>On January 19th, 2038 at 03:14:07 UTC, computers will experience a date related bug that will display inaccurate dates from 03:14:08 UTC and onward. This phenomenon is known as the Year 2038 Problem, Y2038, Y2K38, or the Unix Epochalypse. It will have unpredictable consequences on systems across the world, including “satellites falling out of orbit, massive power outages, hospital life support system failures, phone system interruptions (including 911 emergency services), banking system crashes, etc.” (source: 2038.org)</p>
+        </div>
+
+        <div class="countdown">
+            <h1 id="liveClock"></h1>
+            <h1 id="liveLocalClock"></h1>
+            <h1 id="liveDecimal"></h1>
+        </div>
+
+        <div class="info">
+            <h2>What causes the Y2038 Bug?</h2>
+            <p>Computers that run on Unix time start calculating seconds from January 1st, 1970 at 00:00:00 UTC, also known as the Unix Epoch. This data is stores a “signed integer” in 32-bits, which can only store values from −(2^31) to 2^31. What happens when the number of seconds since January 1st, 1970 exceeds 2^31 (2,147,483,648 seconds)? The integers will overflow and will likely display values 2^31 before the Unix Epoch, causing the Y2038 bug and in turn, the collapse of society as we know it..</p>
+            
+            <div class="event">
+                <div class="tab">
+                    <p class="empty">faahhh</p>
+                    <div class="incident-source">
+                        <a href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>2</p>
+                <p class="incident-date">DATE: Jan 19, 2024</p>
+            </div>
+        </div>
+
+        <div class="info">
+            <h2>Is Y2038 another Y2K?</h2>
+            <div>
+                <p>The Year 2000 Problem usually involves a bug in the user interface. For example, displaying 2000 as 1900 or in rare instances, 19100. The implemented Y2K fixes did not fix the problems causing Y2038.</p>
+
+                <p>If you thought Y2K would be the end of the world, Y2038 will be immeasurably more disastrous than Y2K, especially with our increased reliance on computers.</p>
+
+                <h1>"The greatest danger with the Year 2038 Problem is its invisibility."</h1>
+            </div>
+        </div>
+
+        <div class="info">
+            <h2>What can I do?</h2>
+            <p>PREPARE FOR THE WORST. SPREAD THE WORD. </p>
+        </div>
     </section>
-
-
+    
     <script src="test.js"></script>
 </body>
 </html>

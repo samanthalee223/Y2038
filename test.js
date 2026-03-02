@@ -1,4 +1,4 @@
-// LIVE UTC CLOCK + DECIMAL
+// LIVE UTC CLOCK + COUNTDOWN
 const x = setInterval(function() {
     const now = new Date();
 
@@ -21,7 +21,7 @@ const x = setInterval(function() {
     // Update the HTML element
     document.getElementById('liveClock').textContent = timeString;
     document.getElementById('liveLocalClock').textContent = 'Local Time: ' + timeLocalString;
-    document.getElementById('liveDecimal').textContent = Math.floor(decimal / 1000) + ' / 2147483647 seconds since 1 January 1970 00:00:00 UTC';
+    document.getElementById('liveDecimal').textContent = Math.floor(decimal / 1000) + ' / 2147483647 seconds since January 1, 1970 00:00:00 UTC';
     document.getElementById('liveDecimal2').textContent = Math.floor(distance / 1000) + ' seconds to Y2038';
     document.getElementById('countdown').textContent = years + "y " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
@@ -33,9 +33,22 @@ const x = setInterval(function() {
     }
   }, -1000);
 
-// Update the clock immediately on page load
-// updateClock();
+// SHUFFLE INCIDENTS GRID ON RELOAD
 
-// Update the clock every second (1000 milliseconds)
-//setInterval(updateClock, 1000);
+document.addEventListener("DOMContentLoaded", () => {
+  const grid = document.getElementById('incidents');
+  // Convert HTML elements to array
+  const events = Array.from(grid.children);
 
+  // Fisher-Yates shuffle
+  for (let i = events.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [events[i], events[j]] = [events[j], events[i]];
+  }
+
+  // Remove all items
+  grid.innerHTML = "";
+
+  // Re-add in shuffled order
+  events.forEach(item => grid.appendChild(item));
+});
