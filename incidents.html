@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Y2038</title>
+    <title>Y2K38 Incidents</title>
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -15,7 +15,7 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Y2038</a></li>
+                <li><a href="index.html">Y2K38</a></li>
                 <li id="liveDecimal"></li>
                 <li><a href="incidents.html" class="active">Incidents</a></li>
             </ul>
@@ -24,20 +24,11 @@
 
     <section class="incidents-wrapper">
         <h2>Known Incidents</h2>
-        <p>Have you been affected by the Y2038 Bug? Share your experiences <a href="error.html">here.</a></p>
+        <p>Have you been affected by the Y2038 Bug? Share your experiences <a href="error.html">here↗.</a></p>
 
         <div class="incidents" id="incidents">
-            <div class="event">
-                <div class="tab">
-                    <p class="empty"></p>
-                    <div class="incident-source">
-                        <a target="_blank" href="https://x.com/charlesarthur/status/1748325672542417405?s=46&t=mbs_xVxxEesW9HqdsasHbA">↗</a>
-                    </div>
-                </div>
-                <p>If you don’t know what the Y2038 problem is: it will make Y2K look like a walk in the park (and Y2K was not that).</p>
-                <p class="incident-date">DATE: Jan 19, 2024</p>
-            </div>
            
+            <!--NEWS ARTICLES/REAL EVENTS-->
             <div class="event">
                 <div class="tab">
                     <p class="empty"></p>
@@ -51,13 +42,18 @@
             
             <div class="event">
                 <div class="tab">
-                    <p class="empty"></p>
+                    <p class="empty">Y2K38 Bug Found in 2037</p>
                     <div class="incident-source">
                         <a target="_blank" href="https://www.theregister.com/2025/08/23/the_unix_epochalypse_might_be/">↗</a>
                     </div>
                 </div>
                 <h3>THE UNIX EPOCHALYPSE MIGHT BE SOONER THAN YOU THINK!!!</h3>
-                <p> MUSEUM SYSTEMS ACROSS AMERICA REPORT CRASHING IN 2037!!! MUSEUM SYSTEMS ACROSS AMERICA REPORT CRASHING IN 2037!!!MUSEUM SYSTEMS ACROSS AMERICA REPORT CRASHING IN 2037!!!MUSEUM SYSTEMS ACROSS AMERICA REPORT CRASHING IN 2037!!!MUSEUM SYSTEMS ACROSS AMERICA REPORT CRASHING IN 2037!!!MUSEUM SYSTEMS ACROSS AMERICA REPORT CRASHING IN 2037!!!</p>
+                <p> MUSEUM SYSTEMS ACROSS AMERICA REPORT CRASHING IN 2037!!!</p>
+                <p>A stark warning about the upcoming Epochalypse, also known as the "Year 2038 problem," has come from the past, as National Museum Of Computing system restorers have discovered an unsetting issue while working on ancient systems.</p>
+                <p>The Year 2038 problem is a different beast. Indicating the PDP-11/73, Downs said, "This machine isn't running Unix, but we have a C compiler on it, and the C compiler is from 1982, so it has ... various issues."</p>
+                <p>Annoying, but solvable. The team worked around the issue. However, when Downs was testing it by moving the system clock forward, something unexpected happened. He moved the clock forward to 2036, and everything seemed fine.</p>
+                <p>Then, in 2037 – a year before the Epochalypse is due – the program crashed. "It turns out," said Downs, "the time function has another bug. Undocumented, unknown, where at the start of 2037, any program that calls the time function just crashes."</p>
+                <p>"So we found bugs that exist, pre-2038, in writing this that we didn't know about."</p>
             </div>
 
             <div class="event">
@@ -70,16 +66,6 @@
                 <h3>GANGNAM STYLE PREDICTED THE END OF THE WORLD</h3>
                 <p>"Gangnam Style, a music video featuring a South Korean pop star jiggling around in a rodeo-style dance, almost broke the social network after viewing was poised to exceed 2,147,483,647 plays on Dec 3."</p>
             </div>
-
-            <div class="event">
-                <div class="tab">
-                    <p class="empty"></p>
-                    <div class="incident-source">
-                        <a target="_blank" href="error.html">↗</a>
-                    </div>
-                </div>
-                <p>5</p>
-            </div>
            
             <div class="event">
                 <div class="tab">
@@ -88,10 +74,492 @@
                         <a target="_blank" href="error.html">↗</a>
                     </div>
                 </div>
-                <p>The Crowdstrike Incident: A Warning to Wake Up and Pay Attention to Y2038.</p>
                 <img src="images/crowdstrike-1.webp">
+                <p>The Crowdstrike Incident: A Warning to Wake Up and Pay Attention to Y2038.</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://www.washingtonpost.com/archive/politics/1999/03/07/big-glitch-at-nuclear-plant-shows-perils-of-y2k-tests/a148232f-5760-403c-bc14-b00382b6852d/">↗</a>
+                    </div>
+                </div>
+                <p>Date Switch in a Pennsylvania Nuclear Plant Causes Outages Across the State for 7 Days!</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty">Jury Duty in 1900</p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://www.latimes.com/archives/la-xpm-1999-nov-28-mn-38339-story.html">↗</a>
+                    </div>
+                </div>
+                <h3>As many as 500 people got notices telling them to show up for jury duty in 1900 due to computer bug</h3>
+                <p>“Yes, after all the work that was done to avoid this, it happened,” city Jury Commissioner Michael J. McAllister told the Philadelphia Daily News. About 400 to 500 people got the erroneous mailings, he said.</p>
+                <p>McAllister said the problem only involved those who had been granted postponements of their jury duty; the notices were for a second call.</p>
+                <p>But Charles McLaughlin of the city’s Port Richmond section, who got his summons Friday, said he had never asked for a postponement.</p>
+                <p>“I told my wife, ‘I’ve got jury duty, but I can’t go. I’ve already missed it.’ Then I told her it was for the year 1900,” he said.</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://www.irishtimes.com/news/y2k-bug-strikes-airports-1.142074">↗</a>
+                    </div>
+                </div>
+                <h3>CATASTROPHE STRIKES! Airports across Sweden unable to create passports due to computer bug. FLEE WHILE YOU CAN!</h3>
+                <p>Stockholm - Police at three Swedish airports got a foretaste of the much-feared Year 2000 bug yesterday. Their computers malfunctioned at the stroke of midnight.</p>
+                <p>The bug hit police offices at airports which issue immediate, temporary passports to last-minute or forgetful travellers. Apparently, the fault was caused by the use of 99 in some programmes as a code to mean "end of run" or "end of file.”</p>
+                <p class="incident-date">1999-01-02</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://www.theguardian.com/technology/2000/apr/24/y2k.g2">↗</a>
+                    </div>
+                </div>
+                <h3>ELDERLY OVER 100 DENIED CARE IN BEDFORDSHIRE AFTER Y2K38 BUG STRIKES!!</h3>
+                <p class="incident-date">2000-04-24</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://archive.nytimes.com/www.nytimes.com/library/tech/99/12/biztech/articles/30credit.html">↗</a>
+                    </div>
+                </div>
+                <h3>20,000 Credit Card Machines Fail!</h3>
+                <p>Experts warn everyone to withdraw all of their money from their bank accounts due to a mass failure in credit card machines due to the Epochalypse.</p>
+                <p class="incident-date">1999-12-30</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://www.cnet.com/tech/tech-industry/report-y2k-fix-disrupts-u-s-spy-satellites-for-days-not-hours/">↗</a>
+                    </div>
+                </div>
+                <h3>Y2K LEAKS U.S. SPY SATELLITE INTEL FOR DAYS, NOT HOURS</h3>
+                <p>A computer patch intended to avert Y2K glitches reportedly turns the flow of data from five spy satellites into indecipherable garble for nearly three days.</p>
+                <p>The Year 2000 computer problem may have hit a collection of U.S. image-collecting spy satellites a lot harder than first thought, according to a report.The family of satellites was affected by the Y2K glitch for nearly three days, a failure far more substantial than the Pentagon's earlier reports of just a few hours, The Chicago Tribune reported today, based on interviews with what it terms "knowledgeable" government officials.</p>
+                <p>A computer patch intended to avert Y2K glitches turned the flow of data from five spy satellites into indecipherable garble. Within a few hours, Pentagon technicians redirected the satellite signals and began the slow process of manually deciphering the signals, according to the report.</p>
+                <p>The three-day shutdown occurred at a time when the entire U.S. intelligence community was on global alert for potential terrorist activity relating to Year 2000 celebrations, the report states.</p>
+                <p>"The outage diminished capacity for a while... a couple of days, but back up procedures were put in place almost immediately," said Susan Hansen, a Pentagon spokesperson. The Pentagon briefed reporters on the situation a day after it occured.</p>
+                <p class="incident-date">2000-01-13</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="http://news.bbc.co.uk/2/hi/science/nature/586620.stm">↗</a>
+                    </div>
+                </div>
+                <h3>JAPANESE NUCLEAR POWER PLANTS MALFUNCTION! DISASTROUS IMPLICATIONS!!</h3>
+                <p class="incident-date">2000-01-01</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="http://news.bbc.co.uk/2/hi/science/nature/586620.stm">↗</a>
+                    </div>
+                </div>
+                <h3>AIR TRAFFIC CONTROL SYSTEM IN JAPAN BREAKS! PROBLEM PERSISTS FOR DAYS.</h3>
+                <p class="incident-date">2000-01-01</p>
+            </div>
+                       
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="http://news.bbc.co.uk/2/hi/science/nature/586620.stm">↗</a>
+                    </div>
+                </div>
+                <h3>Bus ticket validation system in Australia fail to operate.</h3>
+                <p class="incident-date">2000-01-01</p>
+            </div>
+                        
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="http://news.bbc.co.uk/2/hi/science/nature/586620.stm">↗</a>
+                    </div>
+                </div>
+                <h3>THE EPOCHALYPSE LEAVES CANADA’S DEFENCE OFFICE SAFE ROOMS LEFT VULNERABLE</h3>
+                <p>In Ottowa, Canada, access keys to Defence Office safe rooms have been found non-Y2K compliant after tests.</p>
+                <p class="incident-date">2000-01-01</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="http://news.bbc.co.uk/2/hi/science/nature/586620.stm">↗</a>
+                    </div>
+                </div>
+                <h3>RAILTRACK WEBSITE REPORTS THAT NO TRAINS WILL RUN IN THE UK DUE TO EPOCHALYPSE!</h3>
+                <p class="incident-date">2000-01-01</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="http://news.bbc.co.uk/2/hi/science/nature/586620.stm">↗</a>
+                    </div>
+                </div>
+                <h3>Reports of phone jamming in Brazil, Japan, Macedonia, Italy and the UK due to Y2K38!</h3>
+                <p class="incident-date">2000-01-01</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="">↗</a>
+                    </div>
+                </div>
+                <img src="images/y2k-bug-1.jpg">
+                <p class="incident-date">2000-01-03</p>
+            </div>
+                        
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://www.deseret.com/2000/1/2/19551794/what-y2k-bug-global-computers-are-a-ok/">↗</a>
+                    </div>
+                </div>
+                <h3>Japan’s largest cellular operator reports newest text messages being deleted. CONTACT YOUR LOVED ONES BEFORE IT’S TOO LATE!</h3>
+                <p></p>
+                <p class="incident-date">2000-01-02</p>
+            </div>
+                        
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://www.zdnet.com/article/will-monday-be-the-real-y2k-day/">↗</a>
+                    </div>
+                </div>
+                <h3>90,000+ APARTMENTS WITHOUT HEATING OR HOT WATER IN SEOUL FOR DAYS</h3>
+                <p>The Y2K bug temporarily stopped the supply of warm water and the operation of Korean-style hot air "ondol" floor heaters at 902 households at a high-rise apartment complex on the outskirts of Seoul midnight Saturday, South Korean officials said.</p>
+                <p>The trouble in the province of Kyonggi is regarded as the world's first large-scale disturbance to many people's lives and is believed to have been caused by a Y2K-related malfunction of the complex's computer control system.</p>
+                <p>Engineers conducted emergency repairs, and the floor heater was restarted Saturday evening. The warm-water supply was also restarted Sunday morning.</p>
+                <p>The warm-water supply and floor heaters were functioning normally by Sunday evening as the computer control system was replaced with a Y2K-compatible model, the officials said.</p>
+                <p>The computer system, which was installed about a decade ago, was not updated to be Y2K-compliant.</p>
+                <p class="incident-date">2000-01-02</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://www.upi.com/Archives/2000/01/04/SKorea-declares-success-against-Y2K-bug/3543946962000/">↗</a>
+                    </div>
+                </div>
+                <p>Four hospital patients in the southeastern city of Taegu were issued medical fee receipts dated Jan. 1, 1900.</p>
+                <p class="incident-date">2000-01-04</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://www.upi.com/Archives/2000/01/04/SKorea-declares-success-against-Y2K-bug/3543946962000/">↗</a>
+                    </div>
+                </div>
+                <h3>A newborn baby's age was recorded as 100 years old at a hospital near Seoul after the computer malfunctioned in the transition to 2000.</h3>
+                <p class="incident-date">2000-01-04</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://www.forbes.com/sites/frederickallen/2020/12/29/apocalypse-then-when-y2k-didnt-lead-to-the-end-of-civilization/">↗</a>
+                    </div>
+                </div>
+                <h3>BREATHALYZERS BREAK IN HONG KONG: DRUNK DRIVING INCIDENTS SPIKE</h3>
+                <p class="incident-date">2019-12-29</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://www.theglobeandmail.com/report-on-business/rob-commentary/the-y2k-bug-turned-out-to-be-a-non-event-eric-reguly-says/article765124/">↗</a>
+                    </div>
+                </div>
+                <h3>Thousands of taxi meters fail in Jiangsu, China.</h3>
+                <p class="incident-date">2000-01-04</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://www.deseret.com/2000/1/2/19551794/what-y2k-bug-global-computers-are-a-ok/">↗</a>
+                    </div>
+                </div>
+                <h3>THREE DIALYSIS MACHINES FAIL IN EGYPT</h3>
+                <p></p>
+                <p class="incident-date">2000-01-02</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://www.orlandosentinel.com/2000/01/06/30000-cash-registers-in-greece-hit-by-y2k-bug-2/">↗</a>
+                    </div>
+                </div>
+                <h3>30,000 OF GREECE’S CASH REGISTERS HAVE BEGUN PRINTING RECEIPTS DATED 1900!!</h3>
+                <p class="incident-date">2000-01-06</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://books.google.ca/books?id=AQD-DAAAQBAJ&pg=PA179&redir_esc=y#v=onepage&q&f=false">↗</a>
+                    </div>
+                </div>
+                <h3>DENMARK HOSPITAL REPORTS A 100 YEAR OLD BABY!</h3>
+                <p class="incident-date">2009-06-01</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="">↗</a>
+                    </div>
+                </div>
+                <h3>THE FRENCH GOVERNMENT’S SECRET IS EXPOSED! THE EPOCHALPYSE CAUSES FRENCH SPY SATELLITES TO FALL OUT OF THE SKY!!</h3>
+                <img src="images/mini-poster.jpg">
+                <p class="incident-date">2000-01-10</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://web.archive.org/web/20000608011648/http://www.usatoday.com/life/cyber/tech/cth131.htm">↗</a>
+                    </div>
+                </div>
+                <h3>GERMAN FAMILIES DENIED GOVERNMENT CHILDCARE!</h3>
+                <p>When Berlin's German Opera ran its payroll for the first time this year, the millennium bug caused havoc by setting the date back to 1900, an official said Wednesday.</p>
+                <p>Staff at the Deutsche Oper -- which is known for staging 19th-century classics -- discovered that the software problem wiped out government subsidies for families with children by wrongly computing children's ages.</p>
+                <p>Suddenly, the payroll program would treat a person born in 1990 as 90 years old and automatically stop their child allowance payment, said Heinz-Dieter Sense, the opera's financial manager.</p>
+                <p>''Everything was year 2000-proof -- except for this isolated item,'' he said in a telephone interview. ''Of course, we hadn't checked every single line of the software.''</p>
+                <p>The opera was uneasy about withholding government-mandated benefits. So its accountants tricked the software by resetting it to December 1999, before calling in programmers to repair the problem for next month's payroll.</p>
+                <p>Still, staffers came up $10.50 short because child benefits increased as of Jan. 1. The amount will be included in February paychecks, Sense said.</p>
+                <p class="incident-date">2000-06-07</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://www.zdnet.com/article/y2k-bug-blamed-for-pound4m-banking-blunder/">↗</a>
+                    </div>
+                </div>
+                <h3>Bank accidentally transfers $6.2 million to a customer with a statement date of 30 December 1899.</h3>
+                <p>The millennium bug is suspected to have caused a German bank to accidentally issue a computer-banking customer with an account inflated by more than £4m.</p>
+                <p>This lucky businessman's account not only showed this surprising balance figure, but also displayed the curious date of 30 December, 1899. This would have made £4m worth even more in today's money. This particular customer's happy new year was slightly damped, however, when his bank promptly issued him with a corrected statement.</p>
+                <p class="incident-date">2000-01-04</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://www.forbes.com/sites/frederickallen/2020/12/29/apocalypse-then-when-y2k-didnt-lead-to-the-end-of-civilization/">↗</a>
+                    </div>
+                </div>
+                <h3>Prisoners in Venice and Naples have 100 years added to their sentences!</h3>
+                <p></p>
+                <p class="incident-date">2019-12-29</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://www.cnn.com/2000/TECH/computing/01/05/y2k.pentagon.01/index.html">↗</a>
+                    </div>
+                </div>
+                <h3>TRAINS GO ROGUE IN MALI AS TRAIN TRACKING SOFTWARE BREAKS DOWN!!! THOUSANDS OF PASSENGERS STRANDED FOR DAYS!!!</h3>
+                <p class="incident-date">2000-01-05</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://www.cnn.com/2000/TECH/computing/01/05/y2k.pentagon.01/index.html">↗</a>
+                    </div>
+                </div>
+                <h3>THE EPOCHALPYSE DISABLES THE PENTAGON'S TERRORIST THREAT MONITORING SOFTWARE!!!!</h3>
+                <p>The Y2K computer bug briefly blinded some U.S. spy satellites as 2000 arrived, and disabled part of the Pentagon's efforts to monitor potential terrorist threats against the United States, CNN has learned.</p>
+                <p class="incident-date">2000-01-05</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="">↗</a>
+                    </div>
+                </div>
+                <h3></h3>
+                <p></p>
+                <p class="incident-date"></p>
             </div>
             
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="">↗</a>
+                    </div>
+                </div>
+                <h3></h3>
+                <p></p>
+                <p class="incident-date"></p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="">↗</a>
+                    </div>
+                </div>
+                <h3></h3>
+                <p></p>
+                <p class="incident-date"></p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="">↗</a>
+                    </div>
+                </div>
+                <h3></h3>
+                <p></p>
+                <p class="incident-date"></p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="">↗</a>
+                    </div>
+                </div>
+                <h3></h3>
+                <p></p>
+                <p class="incident-date"></p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="">↗</a>
+                    </div>
+                </div>
+                <h3></h3>
+                <p></p>
+                <p class="incident-date"></p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="">↗</a>
+                    </div>
+                </div>
+                <h3></h3>
+                <p></p>
+                <p class="incident-date"></p>
+            </div>
+
+            <!--NEWS ARTICLES/REAL EVENTS END HERE-->
+
+            <!--TWEETS HERE-->
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://x.com/charlesarthur/status/1748325672542417405?s=46&t=mbs_xVxxEesW9HqdsasHbA">↗</a>
+                    </div>
+                </div>
+                <p>If you don’t know what the Y2038 problem is: it will make Y2K look like a walk in the park (and Y2K was not that).</p>
+                <p class="incident-date">DATE: Jan 19, 2024</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty">Y2K38 Bug on Australia Calendar Site</p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://x.com/davidgerard/status/1644303286990692352?s=46&t=mbs_xVxxEesW9HqdsasHbA">↗</a>
+                    </div>
+                </div>
+                <img src="images/autralia-calendar.png">
+                <p>Twitter user reports Y2038 bug on the Australia Calendar website</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty">Twitter use reports Y2038 coding error</p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://x.com/barnabasdotexe/status/1610700953916952578?s=46&t=mbs_xVxxEesW9HqdsasHbA">↗</a>
+                    </div>
+                </div>
+                <img src="images/twitter-code-error.jpeg">
+                <p>Watching Y2038 bug play out in real time 🍿</p>
+                <p>This is a 32bit raspberry pi, but plenty of other systems out there.</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://www.theregister.com/2020/01/30/linux_5_6_2038/">↗</a>
+                    </div>
+                </div>
+                <h3>I've been to the year 3000... Not much has changed, but they're still patching Linux</h3>
+                <p>Bergmann also cautioned that there were a few interfaces that could not be changed "in a compatible way", and needed to be configured to use CLOCK_MONOTONIC, which doesn't suffer from that 1 January 1970 epoch issue but has challenges of its own, or an unsigned 32-bit timestamp, which could choke in 2106.</p>
+                <p>Still, by then most of us will have been enveloped by the sweet, sweet embrace of oblivion. Or will be flying around in rocket-powered robo-braincases/frantically treading water (insert your own apocalyptic scenario here).</p>
+                <p>Bergmann was also keen to emphasise that Y2038 issues lurking in 64-bit machines will also be present in their 32-bit siblings and called out file systems using signed 32-bit seconds, such as ext2, xfs and ufs.</p>
+            </div>
+                        
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://x.com/jamesluterek/status/1657030444473352192?s=46&t=mbs_xVxxEesW9HqdsasHbA">↗</a>
+                    </div>
+                </div>
+                <p>I know the Y2038 bug (Epochalypse) will result in basically nothing, but can we as the #tech community commit to hyping it up and blowing it out of proportion?</p>
+            </div>
+
             <div class="event">
                 <div class="tab">
                     <p class="empty"></p>
@@ -106,11 +574,83 @@
                 <div class="tab">
                     <p class="empty"></p>
                     <div class="incident-source">
-                        <a target="_blank" href="error.html">↗</a>
+                        <a target="_blank" href="https://x.com/jxxf/status/1219009308438024200?s=46&t=mbs_xVxxEesW9HqdsasHbA">↗</a>
                     </div>
                 </div>
-                <p>8</p>
+                <p>⏲️ As of today, we have about eighteen years to go until the Y2038 problem occurs.
+                But the Y2038 problem will be giving us headaches long, long before 2038 arrives.
+                I'd like to tell you a story about this.</p>
+                <p>One of my clients is responsible for several of the world's top 100 pension funds.
+                They had a nightly batch job that computed the required contributions, made from projections 20 years into the future.
+                It crashed on January 19, 2018 — 20 years before Y2038.</p>
+                <p>No one knew what was wrong at first.
+                This batch job had never, ever crashed before, as far as anyone remembered or had logs for.
+                The person who originally wrote it had been dead for at least 15 years, and in any case hadn't been employed by the firm for decades.</p>
+                <p>The program was not that big, maybe a few hundred lines.
+                But it was fairly impenetrable — written in a style that favored computational efficiency over human readability.
+                And of course, there were zero tests.</p>
+                <p>As luck would have it, a change in the orchestration of the scripts that ran in this environment had been pushed the day before.
+                This was believed to be the culprit. Engineering rolled things back to the previous release.
+                Unfortunately, this made the problem worse.</p>
+                <p>You see, the program's purpose was to compute certain contribution rates for certain kinds of pension funds.
+                It did this by writing out a big CSV file. The results of this CSV file were inputs to other programs.
+                Those ran at various times each day.</p>
+                <p>Another program, the benefits distributor, was supposed to alert people when contributions weren't enough for projections.
+                It hadn't run yet when the initial problem occurred. But it did now.</p>
+                <p>Noticing that there was no output from the first program since it had crashed, it treated this case as "all contributions are 0".
+                This, of course, was not what it should do.
+                But no one knew it behaved this way since, again, the first program had never crashed.</p>
+                <p>This immediately caused a massive cascade of alert emails to the internal pension fund managers.
+                They promptly started flipping out, because one reason contributions might show up as insufficient is if projections think the economy is about to tank.</p>
+                <p>The firm had recently moved to the cloud and I had been retained to architect the transition and make the migration go smoothly.
+                They'd completed the work months before. I got an unexpected text from the CIO:</p>
+                <img src="images/tweet-1.jpeg">
+                <p>S1X is their word for "worse than severity 1 because it's cascading *other* unrelated parts of the business". 
+                There had only been one other S1X in twelve months.</p>
+                <p>I got onsite late that night. We eventually diagnosed the issue by firing up an environment and isolating the script so that only it was running.
+                The problem immediately became more obvious; there was a helpful error message that pointed to the problematic part.</p>
+                <p>We were able to resolve the issue by hotpatching the script.
+                But by then, substantive damage had already been done because contributions hadn't been processed that day.
+                It cost about $1.7M to manually catch up over the next two weeks.</p>
+                <p>The moral of the story is that Y2038 isn't "coming".
+                It's *already here*. Fix your stuff. ⏹️</p>
+                <p>Postscript: there's lots more that I think would be interesting to say on this matter that won't fit in a tweet.
+                If you're looking for speakers at your next conference on this topic, I'd be glad to expound further. I don't want to be cleaning up more Y2038 messes! 😄</p>
             </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://x.com/ayase_hazuki/status/1614567328007741441?s=46&t=mbs_xVxxEesW9HqdsasHbA">↗</a>
+                    </div>
+                </div>
+                <p>#ChatGPT If today we discover that the entire universe will abruptly end at Y2038, how can governments avert a financial crisis and keep life as normal as possible before then?</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://x.com/imbert_luc69390/status/2026681433239040109?s=46&t=mbs_xVxxEesW9HqdsasHbA">↗</a>
+                    </div>
+                </div>
+                <p>Y2K38 is coming for our 401k accounts, but I've got my eye on the coffee machine - it's been quietly plotting against us for years</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="https://x.com/leslieston21682/status/2026675813966557331?s=46&t=mbs_xVxxEesW9HqdsasHbA">↗</a>
+                    </div>
+                </div>
+                <p>when the apocalypse finally comes, I'll be sipping tea with my cat in a bunker made entirely of vinyl records Bring it on, Y2K38! #y2kcatastrophepreparedness</p>
+            </div>
+
+            <!--TWEETS SECTION ENDS HERE-->
+
+            <!--FAKE NEWS/POSTERS-->
 
             <div class="event">
                 <div class="tab">
@@ -119,7 +659,17 @@
                         <a target="_blank" href="error.html">↗</a>
                     </div>
                 </div>
-                <p>Date Switch in a Pennsylvania Nuclear Plant Causes Outages Across the State for 7 Days!</p>
+                <img src="images/mini-poster.jpg">
+            </div>
+
+            <div class="event-1x2">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <img src="images/mini-poster3.jpg">
             </div>
 
             <div class="event">
@@ -132,25 +682,922 @@
                 <p>Legendary Japanese fortune teller reports visions of planes falling out of the sky on January 19, 2038!!</p>
             </div>
 
-            <div class="event-1x2">
+            <!--FAKE NEWS/POSTERS SECTION ENDS HERE-->
+
+            <!--CODING ERRORS HERE-->
+            <div class="event">
                 <div class="tab">
                     <p class="empty"></p>
                     <div class="incident-source">
                         <a target="_blank" href="error.html">↗</a>
                     </div>
                 </div>
-                <p>11</p>
+                <p>Feature: Clock Display</p>
+                <p>Trial: const utcDate1 = new Date(Date.UTC(96, 1, 2, 3, 4, 5));
+                    const utcDate2 = new Date(Date.UTC(0, 0, 0, 0, 0, 0));
+                    // notation: Date.UTC(year, monthIndex, day, hours, minutes, seconds)
+
+                    console.log(utcDate1.toUTCString());
+                    // Expected output: "Fri, 02 Feb 1996 03:04:05 GMT"
+
+                    console.log(utcDate2.toUTCString());
+                    // Expected output: "Sun, 31 Dec 1899 00:00:00 GMT"</p>
+                <p>Error: Static clock</p>
+                <p class="incident-date">2026-02-23 17:35 PST</p>
             </div>
 
             <div class="event">
                 <div class="tab">
                     <p class="empty"></p>
                     <div class="incident-source">
-                        <a href="error.html">↗</a>
+                        <a target="_blank" href="error.html">↗</a>
                     </div>
                 </div>
-                <p>12</p>
+                <p>Feature: Clock Display</p>
+                <p>"function updateClock() {
+                    const now = new Date();
+                    // Specify the target time zone using the IANA time zone identifier (e.g., 'America/New_York')
+                    const options = {
+                        timeZone: 'America/New_York', // removing this makes the clock auto sync to computer's timezone
+                        hour: 'numeric',
+                        minute: 'numeric',
+                        second: 'numeric',
+                        hour12: false // Set to false for 24-hour format
+                    };
+                    
+                    // Format the time string
+                    const timeString = now.toLocaleString('en-US', options);
+
+                    // Update the HTML element
+                    document.getElementById('txt').textContent = timeString + "" "" + ""EST"";
+                    }
+
+                    // Update the clock immediately on page load
+                    updateClock();
+
+                    // Update the clock every second (1000 milliseconds)
+                    setInterval(updateClock, 1000);"</p>
+                <p>Error: Using local timezones, not UTC</p>
+                <p class="incident-date">2026-02-23 17:53 PST</p>
             </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Clock Display</p>
+                <p>Trial: "Math.floor((new Date()).getTime() / 1000); console.log((new Date()));"</p>
+                <p>Error: Console log: Mon Feb 23 2026 17:35:27 GMT-0800 (Pacific Standard Time)</p>
+                <p class="incident-date">2026-02-23 17:35 PST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Clock Display</p>
+                <p>"updateClock(
+                        const now = new Date(Date.UTC());
+                    )"</p>
+                <p>Error/Result: invalid function formatting</p>
+                <p class="incident-date">2026-02-23 17:56 PST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Clock Display</p>
+                <p>"const now = new Date(Date.UTC());
+
+                console.log(now.toUTCString());"</p>
+                <p>Error/Result: Console log: Invalid Date</p>
+                <p class="incident-date">2026-02-23 17:59 PST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Clock Display</p>
+                <p>const event = new Date('February 23, 2026 18:24:00');
+                    console.log(event.toUTCString());</p>
+                <p>Error/Result: static, converting local time to UTC using toUTCString()</p>
+                 <p class="incident-date">2026-02-23 18:15 PST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Clock Display</p>
+                <p>const now = Date.now();
+                console.log(now);;</p>
+                <p>Error/Result: Console log: 1771899696747</p>
+                 <p class="incident-date">2026-02-23 18:22 PST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Clock Display</p>
+                <p>const now = Date.now();
+                    console.log(now);
+
+                    console.log(now.toUTCString());</p>
+                <p>Error/Result: "Console log: 1771899837034
+                    test.js:8 Uncaught TypeError: now.toUTCString is not a function"</p>
+                 <p class="incident-date">2026-02-23 18:24 PST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Clock Display</p>
+                <p>function testClock() {
+                    Math.floor((new Date()).getTime() / 1000); 
+                    };
+
+                    console.log('testCLock()');</p>
+                <p>Error/Result: Console log: testCLock()</p>
+                 <p class="incident-date">2026-02-23 18:34 PST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Clock Display</p>
+                <p>function updateClock() {
+                    const now = new Date();
+                    // Specify the target time zone using the IANA time zone identifier (e.g., 'America/New_York')
+                    const options = {
+                        timeZone: 'UTC', // removing this makes the clock auto sync to computer's timezone
+                        hour: 'numeric',
+                        minute: 'numeric',
+                        second: 'numeric',
+                        hour12: false // Set to false for 24-hour format
+                    };
+                    
+                    // Format the time string
+                    const timeString = now.toLocaleString('en-US', options);
+
+                    // Update the HTML element
+                    document.getElementById('txt').textContent = timeString + " " + "UTC";
+                }
+
+                // Update the clock immediately on page load
+                updateClock();
+
+                // Update the clock every second (1000 milliseconds)
+                setInterval(updateClock, 1000);</p>
+                 <p class="incident-date">2026-02-23 18:43 PST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Clock Display</p>
+                <p>"function updateClock() {
+                    const now = new Date();
+                    
+                    // Format the time string
+                    const timeString = now.toUTCString();
+
+                    // Update the HTML element
+                    document.getElementById('txt').textContent = timeString;
+                }
+
+                // Update the clock immediately on page load
+                updateClock();
+
+                // Update the clock every second (1000 milliseconds)
+                setInterval(updateClock, 1000);"</p>
+                <p>Error/Result: No Error: live UTC clock</p>
+                 <p class="incident-date">2026-02-23 18:50 PST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Clock Display</p>
+                <p>"// LIVE UTC CLOCK + DECIMAL
+                    function updateClock() {
+                        const now = new Date();
+                        
+                        // Format the time string
+                        const timeString = now.toUTCString();
+                        const decimal = Date.now();
+
+                        // Update the HTML element
+                        document.getElementById('txt').textContent = timeString;
+                        document.getElementById('txt2').textContent = decimal;
+                    }
+
+                    // Update the clock immediately on page load
+                    updateClock();
+
+                    // Update the clock every second (1000 milliseconds)
+                    setInterval(updateClock, 1000);
+
+                    // "</p>
+                <p>Error/Result: No Error</p>
+                 <p class="incident-date">2026-02-23 19:02 PST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Clock Display</p>
+                <p>"document.getElementById('liveCLock').textContent = timeString;     < div id=""liveClock"" >< /div >
+                    "</p>
+                <p>Error/Result: Spelling Error</p>
+                 <p class="incident-date">2026-02-23 19:13 PST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Clock Display</p>
+                <p>"const start = Date.now();
+                    const end = new Date('2038-01-19T03:14:07');
+                    console.log(end.toUTCString);"</p>
+                 <p class="incident-date">2026-02-23 19:27 PST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Clock Display</p>
+                <p>const start = Date.now();
+                    const end = new Date('2038-01-19T03:14:07');
+                    console.log(end.toUTCString());</p>
+                <p>Error/Result: Console log: Tue, 19 Jan 2038 11:14:07 GMT</p>
+                 <p class="incident-date">2026-02-23 19:28 PST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Clock Display</p>
+                <p>"setTimeout(() => {
+                    const ms = end - new Date();
+                    // calculate difference between Y2038 and now
+
+                    console.log(`seconds remaining = ${Math.floor(ms / 1000)}`);
+                    }, 1000);"</p>
+                 <p class="incident-date">2026-02-24 10:20 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Clock Display</p>
+                <p>"// LIVE UTC CLOCK + DECIMAL
+                    function updateClock() {
+                        const now = new Date();
+                        
+                        // Format the time string
+                        const timeString = now.toUTCString();
+                        const timeLocalString = now.toLocaleString();
+                        const decimal = Date.now();
+
+                        const start = Date.now();
+                        const end = new Date('2038-01-19T03:14:07');
+                        const ms = end - new Date();
+
+                        // Update the HTML element
+                        document.getElementById('liveClock').textContent = timeString;
+                        document.getElementById('liveLocalClock').textContent = 'Local Time: ' + timeLocalString;
+                        document.getElementById('liveDecimal').textContent = Math.floor(decimal / 1000) + ' / 2147483647 seconds until Y2038';
+                        document.getElementById('liveDecimal2').textContent = Math.floor(ms / 1000) + ' seconds left';
+                    }"</p>
+                 <p class="incident-date">2026-02-26 15:07 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Countdown</p>
+                <p>"function convertSeconds(seconds) {
+                    const date = new Date(seconds * 1000);
+                    const years = Math.floor(seconds / (365 * 24 * 60 * 60));
+                    const days = date.getUTCDate() - 1;
+                    const hours = date.getUTCHours();
+                    const minutes = date.getUTCMinutes();
+                    const remainingSeconds = date.getUTCSeconds();
+
+                    return `${years} years, ${days} days, ${hours} hours, ${minutes} minutes and ${remainingSeconds} seconds`;
+                }
+
+                console.log(convertSeconds(5454776657));"</p>
+                <p>Error/Result: Console log: 172 years, 7 days, 23 hours, 44 minutes and 17 seconds</p>
+                 <p class="incident-date">2026-02-26 16:38 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Countdown</p>
+                <p>"// Set the date we're counting down to Jan 19, 2038 03:14:07 UTC
+                    var countDownDate = new Date(""Jan 19, 2038 03:14:07 UTC"").getTime();
+
+                    // Update the count down every 1 second
+                    var x = setInterval(function() {
+                        // Get today's date and time
+                        var now = new Date().getTime();
+                            
+                        // Find the distance between now and the count down date
+                        var distance = countDownDate - now;
+                            
+                        // Time calculations for days, hours, minutes and seconds
+                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                            
+                        // Output the result in an element with id=""demo""
+                        document.getElementById(""demo"").innerHTML = days + ""d "" + hours + ""h ""
+                        + minutes + ""m "" + seconds + ""s "";
+                            
+                        // If the count down is over, write some text 
+                        if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById(""demo"").innerHTML = ""THE WORLD HAS ENDED"";
+                        }
+                    }, 1000);"</p>
+                 <p class="incident-date">2026-02-26 16:52 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Countdown</p>
+                <p>var countDownDate = new Date('2026-02-26T023:14:07').getTime();</p>
+                <p>Error/Result: Returned: NaNy NaNd NaNh NaNs, Error: Invalid date format</p>
+                 <p class="incident-date">2026-02-26 17:04 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Countdown</p>
+                <p>"if (distance < 0) {
+                    clearInterval(updateClock);
+                    document.getElementById(""demo"").innerHTML = ""THE WORLD HAS ENDED"";
+                    }"</p>
+                <p>Error/Result: Message not working, displaying negative values instead.</p>
+                 <p class="incident-date">2026-02-26 17:12 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Countdown</p>
+                <p>"onst x = setInterval(function() {
+                    const now = new Date();
+
+                    // Format the time string
+                    const timeString = now.toUTCString();
+                    const timeLocalString = now.toLocaleString();
+                    const decimal = Date.now();
+
+                    //set countdown date to Jan 19, 2038 03:14:07 UTC / 2038-01-19T03:14:07
+                    const end = new Date('2038-01-19T03:14:07').getTime();
+                    const distance = end - new Date();
+
+                    // Time calculations for days, hours, minutes and seconds
+                    const years = Math.floor(distance / (365 * 1000 * 60 * 60 * 24));
+                    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                    // Update the HTML element
+                    document.getElementById('liveClock').textContent = timeString;
+                    document.getElementById('liveLocalClock').textContent = 'Local Time: ' + timeLocalString;
+                    document.getElementById('liveDecimal').textContent = Math.floor(decimal / 1000) + ' / 2147483647 seconds';
+                    document.getElementById('liveDecimal2').textContent = Math.floor(distance / 1000) + ' seconds to Y2038';
+                    document.getElementById('demo').innerHTML = years + ""y "" + days + ""d "" + hours + ""h "" + minutes + ""m "" + seconds + ""s "";
+
+                    // If the count down is over, write some text 
+                    if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById('demo').innerHTML = ""THE WORLD HAS ENDED"";
+                    }
+                }, -1000);"</p>
+                 <p class="incident-date">2026-02-26 17:22 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Incident Grid</p>
+                <p>"        .incidents {
+                        display: grid;
+                        grid-template-columns: repeat(4, 1fr);
+                        grid-auto-rows: 100px;
+                        gap: -1px;
+                    }
+                    .incidents div:nth-child(2) {
+                        grid-column: 3;
+                        grid-row: 2 / 4;
+                    }
+                    .incidents div:nth-child(5) {
+                        grid-column: 1 / 3;
+                        grid-row: 1 / 3;
+                    }"</p>
+                <p>Error/Result:</p>
+                <img src="images/incident-process-1.png">
+                 <p class="incident-date">2026-03-01 00:03 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Incident Grid</p>
+                <p>" < div class=""incidents"" >
+                        < div class=""event-1x2"" >
+                            < div class=""tab"" >
+                                < div class=""incident-source"" >
+                                    < a href=""error.html"">↗</a >
+                                < /div >
+                            < /div >
+                            < h3 >If you don’t know what the Y2038 problem is: it will make Y2K look like a walk in the park (and Y2K was not that) If you don’t know what the Y2038 problem is: it will make Y2K look like a walk in the park (and Y2K was not that)< /h3 >
+                    < /div >"</p>
+                 <p class="incident-date">2026-03-01 00:15 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Incident Grid</p>
+                <p>".incidents {
+                    display: grid;
+                    grid-template-columns: repeat(6, 1fr);
+                    grid-auto-rows: 2fr;
+                    gap: -1px;
+                    grid-auto-flow: row dense;
+
+                    margin: 0 1%;
+                }
+
+                .incidents div {
+                    border-style: dotted;
+                    border-width: 0.1px;
+                    border-color: white;
+                    overflow-x: scroll;
+                }
+            
+                .incidents .event-1x2 {
+                    grid-column: span 2;
+                    
+                }
+
+                p {
+                    padding:5px;
+                }
+
+                .tab {
+                    position: sticky;
+                    top: 0;
+
+                    display: flex;
+                    justify-content: end;
+                    align-items: center;
+
+                    background-color: rgba(3, 32, 200, 1);;
+                }
+
+                .tab .incident-source {
+                    text-align: center;
+                    height: 0;
+                    width: 23px;
+                    padding-bottom: 23px;
+                }"</p>
+                <p>Error/Result:</p>
+                <img src="images/incident-process-2.png">
+                 <p class="incident-date">2026-03-01 00:15 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Incident Grid</p>
+                <p>".incidents {
+                    --items: 12;
+                    --item1-order: 1;
+                    --item2-order: 1;
+                    --item3-order: 1;
+                    --item4-order: 1;
+                    --item5-order: 1;
+                    --item6-order: 1;
+                    --item7-order: 1;
+                    --item8-order: 1;
+                    --item9-order: 1;
+                    --item10-order: 1;
+                    --item11-order: 1;
+                    --item12-order: 0;
+
+                    display: grid;
+                    grid-template-columns: repeat(6, 1fr);
+                    grid-auto-rows: 2fr;
+                    gap: -1px;
+                    grid-auto-flow: row dense;
+
+                    margin: 0 1%;
+                }
+
+                #1 { order: var(--item1-order); }
+                #2 { order: var(--item2-order); }
+                #3 { order: var(--item3-order); }
+                #4 { order: var(--item4-order); }
+                #5 { order: var(--item1-order); }
+                #6 { order: var(--item2-order); }
+                #7 { order: var(--item3-order); }
+                #8 { order: var(--item4-order); } 
+                #9 { order: var(--item1-order); }
+                #10 { order: var(--item2-order); }
+                #11 { order: var(--item3-order); }
+                #12 { order: var(--item4-order); } "</p>
+                <p>Error/Result: SEE BELOW</p>
+                 <p class="incident-date">2026-03-01 01:34 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Incident Grid</p>
+                <p>"        let root = document.querySelector('#incidents');
+                let itemcount = getComputedStyle(root).
+                    getPropertyValue('--items');
+                let old = 1;
+                const shuffleorder = () => {
+                    let random = Math.floor(Math.random() * itemcount) + 1;
+                    root.style.setProperty('--item' + old + '-order', 1);
+                    root.style.setProperty('--item' + random + '-order', 0);
+                    old = random;
+                };
+                shuffleorder();"</p>
+                <p>Error/Result: DID NOT SHUFFLE</p>
+                 <p class="incident-date">2026-03-01 01:35 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Incident Grid</p>
+                <p>"        let root = document.querySelector('#incidents');
+                let itemcount = getComputedStyle(root).
+                    getPropertyValue('--items');
+                let old = 1;
+                const shuffleorder = () => {
+                    let random = Math.floor(Math.random() * itemcount) + 1;
+                    root.style.setProperty('--item' + old + '-order', 1);
+                    root.style.setProperty('--item' + random + '-order', 0);
+                    old = random;
+                };
+                shuffleorder();"</p>
+                <p>Error/Result: DID NOT SHUFFLE</p>
+                 <p class="incident-date">2026-03-01 01:35 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Incident Grid</p>
+                <p>"        const incident = document.querySelectorAll('.event');
+                    const arr1 = Array.from(incident);
+
+                    function shuffle(array) {
+                        let currentIndex = array.length;
+
+                        // While there remain elements to shuffle...
+                        while (currentIndex != 0) {
+
+                            // Pick a remaining element...
+                            let randomIndex = Math.floor(Math.random() * currentIndex);
+                            currentIndex--;
+
+                            // And swap it with the current element.
+                            [array[currentIndex], array[randomIndex]] = [
+                            array[randomIndex], array[currentIndex]];
+                        }
+                    }
+                    shuffle(arr1);""</p>
+                <p>Error/Result: Console log shuffled, grid items did not.</p>
+                 <p class="incident-date">2026-03-01 01:53 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Incident Grid</p>
+                <p>"const grid = document.querySelectorAll('#incident');
+                    const events = document.querySelectorAll('.event');
+                    const items = Array.from(grid);
+
+                    // Do the actual shuffling
+                        for(let i = items.length; i >= 0; i--) {
+                            grid.appendChild(grid.children[Math.random() * i | 0]);
+                        }
+                    console.log(items);"</p>
+                 <p class="incident-date">2026-03-01 02:11 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Incident Grid</p>
+                <p>"        document.addEventListener(""DOMContentLoaded"", () => {
+                    const grid = document.getElementById('#incident');
+                    // Convert HTML elements to array
+                    const events = Array.from(grid.children);
+
+                    // Fisher-Yates shuffle
+                    for (let i = items.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [items[i], items[j]] = [items[j], items[i]];
+                    }
+
+                    // Remove all items
+                    grid.innerHTML = """";
+
+                    // Re-add in shuffled order
+                    items.forEach(item => grid.appendChild(item));
+                });"</p>
+                <p>Error/Result: const grid = document.getElementById('#incident'); <-- wrong Id name, use of hashtag</p>
+                 <p class="incident-date">2026-03-01 02:23 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Incident Grid</p>
+                <p>"document.addEventListener(""DOMContentLoaded"", () => {
+                    const grid = document.getElementById('incidents');
+                    // Convert HTML elements to array
+                    const events = Array.from(grid.children);
+
+                    // Fisher-Yates shuffle
+                    for (let i = events.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [events[i], events[j]] = [events[j], events[i]];
+                    }
+
+                    // Remove all items
+                    grid.innerHTML = """";
+
+                    // Re-add in shuffled order
+                    events.forEach(item => grid.appendChild(item));
+                });"</p>
+                <p>Error/Result: Grid items shuffle</p>
+                 <p class="incident-date">2026-03-01 02:56 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Countdown</p>
+                <p>const days = Math.floor((distance % (365 * 1000 * 60 * 60 * 24)) / (1000 * 60 * 60 * 24));</p>
+                <p>Error/Result: Countdown calculation error</p>
+                 <p class="incident-date">2026-03-02 23:38 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Countdown</p>
+                <p>const days = Math.floor(distance / (1000 * 60 * 60 * 24) / (365 * 1000 * 60 * 60));</p>
+                <p>Error/Result: Countdown calculation error</p>
+                 <p class="incident-date">2026-03-02 23:41 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Countdown</p>
+                <p>const days = Math.floor(distance / (1000 * 60 * 60 * 24) / (365));</p>
+                <p>Error/Result: Countdown calculation error</p>
+                 <p class="incident-date">2026-03-02 23:41 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Countdown</p>
+                <p>"const days = Math.floor((distance % (365 * 1000 * 60 * 60 * 24)) / (365));
+                    const hours = Math.floor((distance % ( 365 * 1000 * 60 * 60 * 24)) / ( 365 * 1000 * 60 * 60));
+                    const minutes = Math.floor((distance % (365 * 1000 * 60 * 60)) / (365 * 1000 * 60));"</p>
+                <p>Error/Result: Countdown calculation error</p>
+                 <p class="incident-date">2026-03-02 23:50 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Countdown</p>
+                <p>"const days = Math.floor((distance % (365 * 1000 * 60 * 60 * 24)) / (365));
+                    const hours = Math.floor((distance % ( 365 * 1000 * 60 * 60 * 24)) / ( 365 * 1000 * 60 * 60));
+                    const minutes = Math.floor((distance % (365 * 1000 * 60 * 60)) / (365 * 1000 * 60));"</p>
+                <p>Error/Result: Countdown calculation error</p>
+                 <p class="incident-date">2026-03-02 23:50 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Countdown</p>
+                <p>"const days = Math.floor((distance % (365 * 1000 * 60 * 60 * 24)) / (365 * 1000 * 60 * 60));
+                    const hours = Math.floor((distance % ( 365 * 1000 * 60 * 60)) / ( 365 * 1000 * 60));
+                    const minutes = Math.floor((distance % (365 * 1000 * 60)) / (365 * 1000));
+                    const seconds = Math.floor((distance % (365 * 1000)) / 1000);"</p>
+                <p>Error/Result: Countdown calculation error</p>
+                 <p class="incident-date">2026-03-02 23:51 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Countdown</p>
+                <p>const days = Math.floor((distance % (365 * 1000 * 60 * 60 * 24)) / (24 * 60 * 60 * 1000));</p>
+                <p>Error/Result: Countdown calculation error</p>
+                <p class="incident-date">2026-03-02 23:54 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Countdown</p>
+                <p>"const years = Math.floor(distance / (365 * 1000 * 60 * 60 * 24));
+                    const days = Math.floor((distance % (365 * 1000 * 60 * 60 * 24)) / (1000 * 60 * 60 * 24));
+                    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((distance % (1000 * 60)) / 1000);"</p>
+                <p>Error/Result: Error fixed</p>
+                 <p class="incident-date">2026-03-02 23:58 EST</p>
+            </div>
+
+            <div class="event">
+                <div class="tab">
+                    <p class="empty"></p>
+                    <div class="incident-source">
+                        <a target="_blank" href="error.html">↗</a>
+                    </div>
+                </div>
+                <p>Feature: Countdown</p>
+                <p>const end = new Date('2038-01-19T03:14:07Z').getTime();</p>
+                <p>Error/Result: Convert to UTC timezone</p>
+                 <p class="incident-date">2026-03-03 00:05 EST</p>
+            </div>
+
+            <!--END OF CODING ERROR SECTION-->
 
         </div>
     </section>

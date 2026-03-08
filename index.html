@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Y2038</title>
+    <title>Y2K38</title>
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -15,7 +15,7 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Y2038</a></li>
+                <li><a href="index.html">Y2K38</a></li>
                 <li id="liveDecimal2"></li>
                 <li><a href="incidents.html">Incidents</a></li>
             </ul>
@@ -31,46 +31,59 @@
 
     <section class="info-wrapper">
         <div class="info">
+
             <h2>What is the Year 2038 Problem?</h2>
-            <p>On January 19th, 2038 at 03:14:07 UTC, computers will experience a date related bug that will display inaccurate dates from 03:14:08 UTC and onward. This phenomenon is known as the Year 2038 Problem, Y2038, Y2K38, or the Unix Epochalypse. It will have unpredictable consequences on systems across the world, including “satellites falling out of orbit, massive power outages, hospital life support system failures, phone system interruptions (including 911 emergency services), banking system crashes, etc.” (source: 2038.org)</p>
-        </div>
 
-        <div class="countdown">
-            <h1 id="liveClock"></h1>
-            <h1 id="liveLocalClock"></h1>
-            <h1 id="liveDecimal"></h1>
-        </div>
 
-        <div class="info">
-            <h2>What causes the Y2038 Bug?</h2>
-            <p>Computers that run on Unix time start calculating seconds from January 1st, 1970 at 00:00:00 UTC, also known as the Unix Epoch. This data is stores a “signed integer” in 32-bits, which can only store values from −(2^31) to 2^31. What happens when the number of seconds since January 1st, 1970 exceeds 2^31 (2,147,483,648 seconds)? The integers will overflow and will likely display values 2^31 before the Unix Epoch, causing the Y2038 bug and in turn, the collapse of society as we know it..</p>
-            
-            <div class="event">
-                <div class="tab">
-                    <p class="empty"></p>
-                    <div class="incident-source">
-                        <a target="_blank" href="https://metro.co.uk/2014/12/16/all-computers-are-going-to-be-wiped-out-in-2038-and-youtubes-gangnam-style-problem-may-prove-it-4988920/">↗</a>
-                    </div>
-                </div>
-                <h3>GANGNAM STYLE PREDICTED THE EPOCHALYPSE!</h3>
-                <p class="incident-date">DATE: Dec 16, 2014 </p>
-            </div>
-        </div>
-
-        <div class="info">
-            <h2>Is Y2038 another Y2K?</h2>
             <div>
+            <p>On January 19th, 2038 at 03:14:07 UTC, computers will experience a date related bug that will display inaccurate dates from 03:14:08 UTC and onward. This phenomenon is known as the Year 2038 Problem, Y2038, Y2K38, or the Unix Epochalypse. It will have unpredictable consequences on systems across the world, including satellites falling out of orbit, massive power outages, hospital life support system failures, phone system interruptions (including 911 emergency services), banking system crashes, etc.</p>
+
+                <div class="countdown">
+                <h1 id="liveClock"></h1>
+                <h1 id="liveLocalClock"></h1>
+                <h1 id="liveDecimal"></h1>
+            </div>
+            </div>
+                
+            <div class="event-home">
+                <a href="incidents.html"><h1>Known Incidents</h1></a>
+                <a href="incidents.html"><h3>GANGNAM STYLE PREDICTED THE END OF THE WORLD!</h3></a>
+                <a href="incidents.html"><h3>HUNDREDS OF TAXIS BREAK DOWN IN SINGAPORE. DISASTROUS CRASHES ACROSS THE COUNTRY!!</h3></a>
+                <a href="incidents.html"><h3>SATELLITES FALL FROM THE SKY!!</h3></a>
+                <a href="incidents.html"><h3>GANGNAM STYLE PREDICTED THE END OF THE WORLD!</h3></a>
+                <a href="incidents.html"><h3>GANGNAM STYLE PREDICTED THE END OF THE WORLD!</h3></a>
+                <a href="incidents.html"><h3>GANGNAM STYLE PREDICTED THE END OF THE WORLD!</h3></a>
+                <a href="incidents.html"><h3>HUNDREDS OF TAXIS BREAK DOWN IN SINGAPORE. DISASTROUS CRASHES ACROSS THE COUNTRY!!</h3></a>
+            </div>
+
+            <h2>What causes the Y2038 Bug?</h2>
+            <p class="info-answer">Computers that run on Unix time start calculating seconds from January 1st, 1970 at 00:00:00 UTC, also known as the Unix Epoch. This data is stores a “signed integer” in 32-bits, which can only store values from −(2^31) to 2^31. What happens when the number of seconds since January 1st, 1970 exceeds 2^31 (2,147,483,648 seconds)? The integers will overflow and will likely display values 2^31 before the Unix Epoch, causing the Y2038 bug and in turn, the collapse of society as we know it..</p>
+
+
+
+
+            <h2>Is Y2038 another Y2K?</h2>
+            <div class="info-answer">
                 <p>The Year 2000 Problem usually involves a bug in the user interface. For example, displaying 2000 as 1900 or in rare instances, 19100. The implemented Y2K fixes did not fix the problems causing Y2038.</p>
 
-                <p>If you thought Y2K would be the end of the world, Y2038 will be immeasurably more disastrous than Y2K, especially with our increased reliance on computers.</p>
+                <p>If you thought Y2K would be the end of the world, Y2038 will be immeasurably more disastrous than Y2K, especially with our increased reliance on computers and lack of government intervention. The government is deliberately choosing not to act, so they can distract us from the END OF THE WORLD. DO NOT TRUST ANYONE EXCEPT YOURSELF.</p>
 
                 <h1>"The greatest danger with the Year 2038 Problem is its invisibility."</h1>
             </div>
-        </div>
 
-        <div class="info">
+
+            <h2>Why haven't I heard of Y2038?</h2>
+            <div>
+                <p>In the years leading up to Y2K, several countries created laws and allocated funding to fixing the bug. However, as of March 2026, there isn't any media coverage or governments taking preventative action for Y2K38.</p>
+
+                <p class="info-answer">Due to the unpredictable and deadly consequences of Y2K38, the government is withholding information about Y2K38 to the public. Please visit our <a href="incidents.html">incidents page↗ </a> to keep up with the latest and most accurate news about Y2K38.</p>
+            </div>
+
             <h2>What can I do?</h2>
-            <p>PREPARE FOR THE WORST. SPREAD THE WORD. </p>
+            <div>
+                <p class="info-answer">PREPARE FOR THE WORST. SPREAD THE WORD. </p>
+                <p>ANYONE WHO DENIES Y2K38 WORKS FOR THE OTHER SIDE.</p>
+            </div>
         </div>
     </section>
     

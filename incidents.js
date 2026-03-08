@@ -12,7 +12,7 @@ const x = setInterval(function() {
     const distance = end - new Date();
 
     // Update the HTML element
-    document.getElementById('liveDecimal').textContent = Math.floor(distance / 1000) + ' seconds to Y2038';
+    document.getElementById('liveDecimal').textContent = Math.floor(distance / 1000) + ' seconds to Y2K38';
 
     // If the count down is over, write some text 
     if (distance < 0) {
